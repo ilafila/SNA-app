@@ -1,0 +1,127 @@
+/* Reusable */
+.title {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.header-text {
+  font-size: 26px;
+}
+
+.header-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.case-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 17% 30% 17% 17% 17% 19% 15% 20% 27% 36% 18%;
+  width: 95%;
+  height: 90%;
+  border-radius: 3%;
+  overflow-y: scroll;
+  background: linear-gradient(#f5f5f7, #f5f5f7);
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+.case-info {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 90%;
+  margin: auto;
+  border-bottom: 1px solid #D3DAE6;
+}
+/* Case name info */
+.add-case-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3%;
+  -webkit-border-radius: 3%;
+  -moz-border-radius: 3%;
+  -ms-border-radius: 3%;
+  -o-border-radius: 3%;
+}
+
+.case-name-input {
+  width: 36rem;
+  height: 2rem;
+  padding: 5px 5px;
+}
+
+/* Case description info */
+.case-description-input {
+  width: 36rem;
+  height: 8rem;
+  padding: 5px 5px;
+  resize: none;
+}
+
+/* Tag info */
+.case-tags-input {
+  width: 36rem;
+  height: 2rem;
+  padding: 5px 5px;
+}
+
+/* Case time info */
+.case-time-input, .case-date-input {
+  padding: 5px 5px;
+}
+
+.case-date-input {
+  width: 10rem;
+}
+
+.case-time-input {
+  width: 5rem;
+}
+
+/* Social-networks-info */
+.network-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+.network-input, .case-metainfo-input {
+  margin-left: 0.3rem;
+}
+
+.network-icon_twitter {
+  color: rgb(29,161,242);
+}
+
+.network-icon_youtube {
+  color: rgb(255,0,0);
+}
+
+/* Metainfo */
+.case-info__case-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+  margin-left: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+
+.format-text {
+  margin-right: 0.3rem;
+}
+
+.checkbox-input {
+  float: right;
+}
